@@ -105,7 +105,6 @@ function App() {
     // Reset to initial world first
     const startWorld = cloneWorld(initialWorld);
     setCurrentWorld(startWorld);
-    setCurrentLine(null);
 
     // Small delay to show reset
     await new Promise(resolve => setTimeout(resolve, 100));
